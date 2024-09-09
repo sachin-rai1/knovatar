@@ -48,7 +48,7 @@ This Flutter application uses the GetX state management solution to handle state
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/sachin-rai1/knovatar.git
    cd your-repository
    ```
 

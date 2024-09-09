@@ -13,7 +13,7 @@ class DetailPostView extends GetView<DetailPostController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('DetailPostView'),
+        title: const Text('Detail Post'),
         centerTitle: true,
       ),
       body: Obx(() {

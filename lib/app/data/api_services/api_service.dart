@@ -17,7 +17,7 @@ class ApiService {
       isLoading?.value = true;
       String baseUrl = "https://jsonplaceholder.typicode.com/$url";
       log(baseUrl);
-      final response = await _sendRequest(baseUrl, requestType, body).timeout(const Duration(seconds: 60));
+      final response = await _sendRequest(baseUrl, requestType, body).timeout(const Duration(seconds: 10));
 
       if (response.statusCode == 200) {
         var jsonResponse;

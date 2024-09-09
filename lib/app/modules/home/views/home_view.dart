@@ -39,10 +39,10 @@ class HomeView extends GetView<HomeController> {
                         Expanded(child: Text(post.title)),
                         Column(
                           children: [
+                            const Icon(Icons.timer),
                             Obx(() {
                               return Text("${controller.timers[index].value}s");
                             }),
-                            const Icon(Icons.timer),
                           ],
                         ),
                       ],

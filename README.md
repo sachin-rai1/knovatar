@@ -67,15 +67,3 @@ This Flutter application uses the GetX state management solution to handle state
    ```sh
    flutter run
    ```
-
-### Configuration
-
-- **API Endpoint Configuration**: Ensure that your API endpoints are correctly configured in the `ApiService` class to point to the correct server or development environment.
-
-### Local Storage
-
-- **Data Persistence**: Data fetched from the API is stored locally using `GetStorage`. This allows the app to load data quickly from local storage on subsequent launches.
-
-### Visibility Management
-
-- **Timers and Visibility**: The `VisibilityDetector` package is used to manage timers based on the visibility of list items. Ensure that the visibility detection logic aligns with your UI requirements.
